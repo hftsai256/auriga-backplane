@@ -1,0 +1,196 @@
+(footprint "ATA_POWER_4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Molex ATA Power Connector")
+	(property "Reference" "U6"
+		(at 0 6.6 180)
+		(layer "F.SilkS")
+		(uuid "2196ee42-28db-451d-97a3-0c7d6f4fb72b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+		)
+	)
+	(property "Value" "ATA_POWER_4"
+		(at 0 3 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63e0a2b7-0dc5-4803-8cc3-ccca6e7ec12d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "ATA_POWER_4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a3c1ff9-2496-4c4a-8953-7cf63aec5702")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "lib/SATA/ATA_POWER_4.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e06bf18c-db28-46c3-96fa-043a60dd6639")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Molex ATA Power Connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a89d06f-ec52-47b1-8fca-3c113ff3aa22")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -11.5 -4)
+		(end 11.5 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "996f5a33-8be5-4f65-8ebf-ff38248b6282")
+	)
+	(fp_line
+		(start -11.5 2.5)
+		(end -11.5 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d02deffc-5bda-4bc3-add3-28a46a1cc048")
+	)
+	(fp_line
+		(start -11.5 2.5)
+		(end -9.5 4.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9762b090-d6d2-46ae-8c61-fad9a6512558")
+	)
+	(fp_line
+		(start 9.5 4.5)
+		(end -9.5 4.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb0e0eed-5ef7-4c81-ac51-de504acbbaae")
+	)
+	(fp_line
+		(start 11.5 -4)
+		(end 11.5 2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9d2bd39-0661-440b-b0a0-869b83b2dd07")
+	)
+	(fp_line
+		(start 11.5 2.5)
+		(end 9.5 4.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "949cc9f6-40f9-40a0-af03-2e6fb284b7c4")
+	)
+	(fp_text user "12V"
+		(at -6.5 -5.5 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ad14aa88-65c3-4e9d-8be6-f7c2acaca63c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "5V"
+		(at 8.5 -5.5 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cfd70cf9-7d29-45bd-9737-c9c8c89a8560")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.153)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -7.62 0)
+		(size 2.5 2.5)
+		(drill 1.778)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3860444d-fd13-41f0-955f-bb2e8b2dc33e")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 2.5 2.5)
+		(drill 1.778)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c67a1031-753c-43cf-aa03-1f11a37a4890")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2.5 2.5)
+		(drill 1.778)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c08a27f2-45b7-4e34-9627-c14f3bde23f6")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 2.5 2.5)
+		(drill 1.778)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a2d12ba-c12b-4875-8055-d2720efc3b9d")
+	)
+	(model "${KIPRJMOD}/lib/SATA/ATA_POWER_4.stp"
+		(offset
+			(xyz 0.18 0 10.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

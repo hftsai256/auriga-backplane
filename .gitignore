@@ -1,0 +1,5 @@
+# Artifacts for manufacturing
+gerber/
+
+# KiCad Backups
+auriga-backplane-backups/
